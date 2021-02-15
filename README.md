@@ -1,1 +1,1 @@
-# Declaration
+# Declaration of Independence
