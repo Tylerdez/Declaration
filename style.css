@@ -1,0 +1,44 @@
+body {
+    Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    border-top: 80px solid darkred;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: navy;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .icon {
+  display: flex;
+  justify-items: flex-start;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  .main {
+    font-style: italic;
+  }
